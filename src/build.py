@@ -166,7 +166,7 @@ def main():
                     f'<a href="{rel_prefix(slug)}en/{slug}.html" class="lang-link">EN</a></div>'
                 )
                 css_href = f"{rel_prefix(slug)}assets/css/style.css"
-                canonical = f"https://faetcon.local/{slug}.html"
+                canonical = f"https://iyura.github.io/faetcon-site/{slug}.html"
             else:
                 logo_href = f"{rel_prefix(slug)}index.html"
                 lang_switch = (
@@ -175,7 +175,7 @@ def main():
                     '<span class="lang-current">EN</span></div>'
                 )
                 css_href = f"{rel_prefix(slug)}../assets/css/style.css"
-                canonical = f"https://faetcon.local/en/{slug}.html"
+                canonical = f"https://iyura.github.io/faetcon-site/en/{slug}.html"
 
             html = (
                 template
